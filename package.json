@@ -1,5 +1,5 @@
 {
-  "name": "parse",
+  "name": "@omnichat/parse",
   "version": "2.2.1",
   "description": "The Parse JavaScript SDK",
   "homepage": "https://www.parse.com",
@@ -70,7 +70,7 @@
   },
   "scripts": {
     "build": "./build_releases.sh",
-    "release": "./build_releases.sh && npm publish",
+    "release": "./build_releases.sh && npm publish --access public",
     "test": "PARSE_BUILD=node jest",
     "lint": "eslint --cache src/ integration/",
     "lint:fix": "eslint --fix --cache src/ integration/",
